@@ -9,7 +9,7 @@ These skills teach your agent how to run ads. They cover advertising strategy fo
 Install once, and your agent plans campaigns using real frameworks instead of hallucinating settings.
 
 ```bash
-npx skills add adkit/skills --all -y -g
+npx skills add adkit/ads-skills --all -y -g
 ```
 
 Works with Claude Code, Cursor, Copilot, Windsurf, OpenAI Codex, and any agent that support skills.
