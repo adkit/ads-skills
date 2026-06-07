@@ -30,6 +30,7 @@ triggers:
     - manage meta ads
     - manage google ads
     - adkit-cli
+    - @adkit/cli
     - add keywords
     - negative keywords
     - keyword research

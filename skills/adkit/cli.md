@@ -3,7 +3,7 @@
 ## Setup
 
 1. Run `adkit status`. If it works, you're ready.
-2. If `adkit` is not found: `npm i -g adkit-cli`, then `adkit setup manage`.
+2. If `adkit` is not found: `npm i -g @adkit/cli`, then `adkit setup manage`.
 3. If not authenticated: `adkit setup manage` (opens browser for login + ad account connection).
 
 ## Command routing
@@ -67,7 +67,8 @@ All create commands produce a **draft** by default. Add `--publish` to skip draf
 ## Key behaviors
 
 - **`--data <json>`**: bypasses named flags — pass the full AdKit API request body as JSON.
-- **`--platform-overrides <json>`**: escape hatch for raw Meta API fields not covered by AdKit flags.
+- **`platformOverrides`**: raw fields on the same normalized resource.
+- **`adkit manage platform-api-requests`**: raw platform API access for unsupported native resources, endpoints, or multi-resource workflows when Advanced Platform Access is enabled. Use this for Google DSA dynamic ad groups, webpage criteria, page-feed asset sets, and unsupported PMAX resource flows; then report the AdKit gap with `adkit feedback --type missing_feature`.
 - **`--json`**: force JSON output (auto-enabled in non-TTY).
 - **Smart defaults**: most campaigns only need a few flags — omitted settings are handled automatically.
 - **Account resolution**: auto-resolved if only one ad account connected. Otherwise `--account <id>`.
