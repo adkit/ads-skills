@@ -27,6 +27,13 @@ Call `adkit_help` with a path to discover entities, actions, and required params
 | `adkit_help` | Discover exact params for any operation |
 | `adkit_feedback` | Report bugs or suggestions (fire-and-forget) |
 
+## Advanced platform access
+
+- Use `platformOverrides` only for raw fields on the same normalized resource.
+- Use `entity: "platform-api-request", action: "mutate"` for unsupported native platform resources, endpoints, or multi-resource workflows when Advanced Platform Access is enabled.
+- Google examples: DSA dynamic ad groups, webpage criteria, page-feed asset sets, and unsupported PMAX resource flows belong in `platform-api-request`.
+- After using `platform-api-request` for a missing AdKit feature, also send `adkit_feedback` with `type: "missing_feature"`.
+
 ## Draft workflow
 
 All create actions produce a **draft** by default. Set `publish: true` only with explicit user approval.

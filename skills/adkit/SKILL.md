@@ -1,13 +1,13 @@
 ---
 name: adkit
-displayName: "AdKit: Meta Ads, Google Ads, Ad Library, AI Ad Studio, Campaign Management"
+displayName: "AdKit: Google Ads MCP & Meta Ads MCP, Facebook, Instagram, PPC Campaign Agent"
 description: >
     AI agent for managing Google Ads and Meta (Facebook & Instagram) Ads. Create and publish
     campaigns, ad sets/groups, and ads; manage drafts; upload images and video; research
     keywords and audiences; browse the ad library; and generate ads with AI. Works through
     the AdKit CLI or MCP. Load when the user wants to execute ad operations or is ready to
     publish a campaign. Not for strategy, copywriting, creative advice, or learning about ads.
-version: 0.2.2
+version: 0.2.3
 metadata:
     openclaw:
         homepage: https://adkit.so
