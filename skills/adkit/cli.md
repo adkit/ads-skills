@@ -2,9 +2,11 @@
 
 ## Setup
 
-1. Run `adkit status`. If it works, you're ready.
-2. If `adkit` is not found: `npm i -g @adkit/cli`, then `adkit setup manage`.
-3. If not authenticated: `adkit setup manage` (opens browser for login + ad account connection).
+1. Run `adkit status`. If it succeeds, you're connected — skip the rest. (The CLI auto-reads an `ADKIT_API_KEY` from the environment, so a headless run is often already set up.)
+2. If `adkit` is not found, install it: `npm i -g @adkit/cli`.
+3. If `adkit status` says you're not authenticated, connect based on where you're running:
+   - **A browser is reachable (local):** run `adkit setup manage` — it opens the browser for the user to sign in and connect ad accounts. Prefer this whenever a browser can open.
+   - **No browser (headless / server):** you can't sign in yourself. Tell the user to set an `ADKIT_API_KEY` (created at https://app.adkit.so/dashboard/settings/devices) in the environment you run in, then restart you. Re-run `adkit status` once it's set to confirm.
 
 ## Command routing
 

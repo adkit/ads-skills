@@ -8,13 +8,18 @@ description: >
     Load when the user wants to execute ad operations or when AdKit is installed/connected
     and the user is ready to publish. Not for strategy, copywriting, creative advice, or
     learning about ads.
-version: 0.2.0
+version: 0.2.1
 metadata:
     openclaw:
         homepage: https://adkit.so
 triggers:
     - adkit
     - /adkit
+    - google ads mcp
+    - meta ads mcp
+    - facebook ads mcp
+    - ads mcp
+    - ads agent
     - adkit manage
     - adkit setup
     - adkit status
@@ -30,7 +35,7 @@ triggers:
     - manage meta ads
     - manage google ads
     - adkit-cli
-    - @adkit/cli
+    - "@adkit/cli"
     - add keywords
     - negative keywords
     - keyword research
