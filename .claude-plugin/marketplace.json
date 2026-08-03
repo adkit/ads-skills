@@ -1,0 +1,20 @@
+{
+  "name": "adkit-skills",
+  "owner": {
+    "name": "AdKit",
+    "url": "https://adkit.so"
+  },
+  "description": "Ad strategy skills for AI agents: platform playbooks for planning, launching, and optimizing ad campaigns with AdKit.",
+  "plugins": [
+    {
+      "name": "adkit",
+      "source": "./",
+      "displayName": "AdKit Ads Skills",
+      "description": "Ad strategy playbooks (Google, Meta, and more) plus the AdKit skill for managing ads from your agent.",
+      "homepage": "https://adkit.so",
+      "repository": "https://github.com/adkit/ads-skills",
+      "keywords": ["ads", "google-ads", "meta-ads", "advertising", "marketing", "adkit"],
+      "strict": false
+    }
+  ]
+}

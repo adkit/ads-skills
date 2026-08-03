@@ -14,6 +14,16 @@ npx skills add adkit/ads-skills --all -y -g
 
 Works with Claude Code, Cursor, Copilot, Windsurf, OpenAI Codex, and any agent that support skills.
 
+### Claude.ai and Claude Cowork (no terminal)
+
+In Claude, go to **Customize → Plugins → Add marketplace** and add this repository:
+
+```text
+https://github.com/adkit/ads-skills
+```
+
+Then install the **AdKit Ads Skills** plugin. The skills show up in chat and in Cowork, and update automatically when this repo does.
+
 ## What changes
 
 |                    | ❌ Without Ads Skills        | ✅ With Ads Skills                                                     |
