@@ -2,8 +2,8 @@
 name: adkit
 displayName: "AdKit: Google Ads MCP & Meta Ads MCP, Facebook, Instagram, PPC Campaign Agent"
 description: >
-    AI agent for managing Google Ads and Meta (Facebook & Instagram) Ads. Create and publish
-    campaigns, ad sets/groups, and ads; manage drafts; upload images and video; research
+    AI agent for managing ads on Meta, Google, TikTok, LinkedIn, Microsoft, Reddit, X, and
+    Pinterest. Create and publish campaigns, ad sets/groups, and ads; manage drafts; upload images and video; research
     keywords and audiences; browse the ad library; and generate ads with AI. Works through
     the AdKit CLI or MCP. Load when the user wants to execute ad operations or is ready to
     publish a campaign. Not for strategy, copywriting, creative advice, or learning about ads.
@@ -60,6 +60,10 @@ Load **one** file, not both.
 - **Never publish a draft without the user's explicit approval.** Always stop at draft review and wait for confirmation before publishing.
 - **Reply in the same language as the user.**
 - Check if a `meta-ads-strategy` or `google-ads-strategy` skill is available. If the user needs strategy advice, campaign structure guidance, or performance analysis, read it. If they just need to execute operations, skip it.
+
+## Platform skills
+
+For the steps and rules of one platform, read its skill: `meta-ads`, `google-ads`, `tiktok-ads`, `linkedin-ads`, `microsoft-ads`, `reddit-ads`, `x-ads`, or `pinterest-ads`. Each platform page on adkit.so has the setup guide: [Meta](https://adkit.so/features/ads-mcp/meta), [Google](https://adkit.so/features/ads-mcp/google), [TikTok](https://adkit.so/features/ads-mcp/tiktok), [LinkedIn](https://adkit.so/features/ads-mcp/linkedin), [Microsoft](https://adkit.so/features/ads-mcp/microsoft), [Reddit](https://adkit.so/features/ads-mcp/reddit), [X](https://adkit.so/features/ads-mcp/x), [Pinterest](https://adkit.so/features/ads-mcp/pinterest).
 
 ## With strategy skills
 
