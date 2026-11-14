@@ -34,7 +34,7 @@ AdKit is one MCP connector for Meta, Google, TikTok, LinkedIn, Microsoft, Reddit
 - **Claude, ChatGPT, and most AI apps:** add a custom connector with the address `https://mcp.adkit.so`, then sign in.
 - **Claude Code:** `claude mcp add --transport http adkit https://mcp.adkit.so`
 
-For other AI apps, see how to [connect AdKit to Google Ads](https://adkit.so/features/ads-mcp/google). If the AdKit tools are not available, tell the user how to connect. Then stop.
+For other AI apps, see how to set up the [AdKit MCP server for Google Ads](https://adkit.so/features/ads-mcp/google). If the AdKit tools are not available, tell the user how to connect. Then stop.
 
 ## What AdKit can do on Google Ads
 
@@ -126,4 +126,4 @@ For a Google Ads feature that AdKit does not cover (for example dynamic search a
 
 ## Other platforms
 
-The same AdKit connector runs [Meta](https://adkit.so/features/ads-mcp/meta), [TikTok](https://adkit.so/features/ads-mcp/tiktok), [LinkedIn](https://adkit.so/features/ads-mcp/linkedin), [Microsoft](https://adkit.so/features/ads-mcp/microsoft), [Reddit](https://adkit.so/features/ads-mcp/reddit), [X](https://adkit.so/features/ads-mcp/x), and [Pinterest](https://adkit.so/features/ads-mcp/pinterest) ads. Each platform has its own skill in this repo, for example `meta-ads` and `microsoft-ads`.
+The same AdKit connector runs [Meta Ads](https://adkit.so/features/ads-mcp/meta), [TikTok Ads](https://adkit.so/features/ads-mcp/tiktok), [LinkedIn Ads](https://adkit.so/features/ads-mcp/linkedin), [Microsoft Ads](https://adkit.so/features/ads-mcp/microsoft), [Reddit Ads](https://adkit.so/features/ads-mcp/reddit), [X Ads](https://adkit.so/features/ads-mcp/x), and [Pinterest Ads](https://adkit.so/features/ads-mcp/pinterest) ads. Each platform has its own skill in this repo, for example `meta-ads` and `microsoft-ads`.

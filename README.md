@@ -39,16 +39,16 @@ Then install the **AdKit Ads Skills** plugin. The skills show up in chat and in 
 
 Each skill tells your agent how to run one ad platform with [AdKit](https://adkit.so/features/ads-mcp): the steps, the platform's rules, and examples. They all use the same AdKit connector, `https://mcp.adkit.so`.
 
-| Skill                                    | Platform             | Page                                                          |
-| ---------------------------------------- | -------------------- | ------------------------------------------------------------- |
-| [meta-ads](./skills/meta-ads/)           | Facebook & Instagram | [How to connect](https://adkit.so/features/ads-mcp/meta)      |
-| [google-ads](./skills/google-ads/)       | Google Ads           | [How to connect](https://adkit.so/features/ads-mcp/google)    |
-| [tiktok-ads](./skills/tiktok-ads/)       | TikTok               | [How to connect](https://adkit.so/features/ads-mcp/tiktok)    |
-| [linkedin-ads](./skills/linkedin-ads/)   | LinkedIn             | [How to connect](https://adkit.so/features/ads-mcp/linkedin)  |
-| [microsoft-ads](./skills/microsoft-ads/) | Microsoft (Bing)     | [How to connect](https://adkit.so/features/ads-mcp/microsoft) |
-| [reddit-ads](./skills/reddit-ads/)       | Reddit               | [How to connect](https://adkit.so/features/ads-mcp/reddit)    |
-| [x-ads](./skills/x-ads/)                 | X (Twitter)          | [How to connect](https://adkit.so/features/ads-mcp/x)         |
-| [pinterest-ads](./skills/pinterest-ads/) | Pinterest            | [How to connect](https://adkit.so/features/ads-mcp/pinterest) |
+| Skill                                    | Platform             | Page                                                                   |
+| ---------------------------------------- | -------------------- | ---------------------------------------------------------------------- |
+| [meta-ads](./skills/meta-ads/)           | Facebook & Instagram | [Meta Ads MCP setup](https://adkit.so/features/ads-mcp/meta)           |
+| [google-ads](./skills/google-ads/)       | Google Ads           | [Google Ads MCP setup](https://adkit.so/features/ads-mcp/google)       |
+| [tiktok-ads](./skills/tiktok-ads/)       | TikTok               | [TikTok Ads MCP setup](https://adkit.so/features/ads-mcp/tiktok)       |
+| [linkedin-ads](./skills/linkedin-ads/)   | LinkedIn             | [LinkedIn Ads MCP setup](https://adkit.so/features/ads-mcp/linkedin)   |
+| [microsoft-ads](./skills/microsoft-ads/) | Microsoft (Bing)     | [Microsoft Ads MCP setup](https://adkit.so/features/ads-mcp/microsoft) |
+| [reddit-ads](./skills/reddit-ads/)       | Reddit               | [Reddit Ads MCP setup](https://adkit.so/features/ads-mcp/reddit)       |
+| [x-ads](./skills/x-ads/)                 | X (Twitter)          | [X Ads MCP setup](https://adkit.so/features/ads-mcp/x)                 |
+| [pinterest-ads](./skills/pinterest-ads/) | Pinterest            | [Pinterest Ads MCP setup](https://adkit.so/features/ads-mcp/pinterest) |
 
 ### Strategy skills
 
