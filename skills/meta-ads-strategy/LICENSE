@@ -1,0 +1,36 @@
+AdKit Skills License
+
+Copyright (c) 2026 AdKit (adkit.so)
+
+Permission is granted, free of charge, to any person or organization ("User")
+to use, copy, and modify the Software for personal or internal business
+purposes, subject to the following conditions:
+
+1. REDISTRIBUTION RESTRICTED. The User may not redistribute, republish,
+   sublicense, or otherwise make the Software (or substantial portions of it)
+   available to third parties without prior written agreement from the
+   copyright holder. This includes but is not limited to: publishing forks
+   that serve as standalone alternatives, bundling the Software into other
+   skill repositories, or hosting the content on other platforms.
+
+2. NO COMPETING PRODUCTS. The User may not use the Software, in whole or in
+   part, to build or operate a product or service that competes with AdKit
+   (adkit.so) or its associated skill offerings. This includes incorporating
+   the content into competing AI agent skill libraries, ad management tools,
+   or advertising strategy products.
+
+3. ATTRIBUTION. Any permitted use must retain this license notice and the
+   above copyright notice.
+
+4. CONTRIBUTIONS. By submitting a pull request or other contribution to this
+   repository, the contributor grants the copyright holder a perpetual,
+   worldwide, royalty-free license to use, modify, and distribute the
+   contribution under this license.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

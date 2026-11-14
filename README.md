@@ -105,4 +105,4 @@ I built and sold three apps ($290k combined), two of them grown primarily throug
 
 ## License
 
-Free to use. Redistribution requires written agreement. Usage by competing products strictly forbidden. See [LICENSE](./LICENSE).
+MIT, see [LICENSE](./LICENSE). Two exceptions: [meta-ads-strategy](./skills/meta-ads-strategy/LICENSE) and [google-ads-strategy](./skills/google-ads-strategy/LICENSE) use the AdKit Skills License in their folders: free to use, but no redistribution and no use in competing products.
