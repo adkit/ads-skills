@@ -3,9 +3,9 @@ name: reddit-ads
 displayName: "AdKit for Reddit Ads: Campaigns, Ad Groups, Ads and Reporting"
 description: >
   Create, edit, and report on Reddit ads from an AI agent through the AdKit MCP connector:
-  campaigns, ad groups, ads, carousels, account defaults, and results. Every change is saved
-  as a draft that the user approves before it goes live. Use when the user wants to run,
-  change, or check Reddit ads. Not for Reddit ad strategy or creative advice.
+  campaigns, ad groups, ads, carousels, account defaults, and results. Every campaign and ad
+  change is saved as a draft that the user approves before it goes live. Use when the user
+  wants to run, change, or check Reddit ads. Not for Reddit ad strategy or creative advice.
 version: 0.1.0
 metadata:
   openclaw:
@@ -53,7 +53,7 @@ All calls go through `adkit_manage` with `platform: "reddit"`. Before a call you
 
 1. **Project:** call `adkit_projects` and get the `projectId`. Every call needs it.
 2. **Account:** call `adkit_status`. If no Reddit account is connected, call `adkit_setup` with `platform: "reddit"` and give the user the link. After they sign in, use `accounts` `available`, then `accounts` `connect`.
-3. **Account defaults:** find the profile, pixel, and funding instrument with `accounts` `profiles`, `accounts` `pixels`, and `accounts` `funding-instruments`. Save them with `accounts` `update`. This change applies immediately, with no draft.
+3. **Account defaults:** find the profile, pixel, and funding instrument with `accounts` `profiles`, `accounts` `pixels`, and `accounts` `funding-instruments`. This change applies immediately, with no draft. So show the user what you picked and wait for a yes. Then save them with `accounts` `update`.
 4. **Build from the top down.** Each create saves a draft. For each level, do these steps before you start the next level:
    - Show the draft to the user (`drafts` `get`, or the link `https://app.adkit.so/manage/drafts?open=<draftId>`).
    - Wait for a yes. Then publish it with `drafts` `publish`.
